@@ -64,19 +64,19 @@ console.log("\n------JANUARI--------");
 console.log(teuingDate(31, "Januari", 7));
 
 console.log("\n------FEBRUARI--------");
-console.table(teuingDate(27, "Februari", 3));
+console.log(teuingDate(27, "Februari", 3));
 
 console.log("\n------MARET--------");
-console.table(teuingDate(31, "Maret", 3));
+console.log(teuingDate(31, "Maret", 3));
 
 console.log("\n------APRIL--------");
-console.table(teuingDate(30, "April", 6));
+console.log(teuingDate(30, "April", 6));
 
 console.log("\n------MEI--------");
-console.table(teuingDate(31, "Mei", 1));
+console.log(teuingDate(31, "Mei", 1));
 
 console.log("\n------JUNI--------");
-console.table(teuingDate(30, "Juni", 5));
+console.log(teuingDate(30, "Juni", 5));
 
 console.log("\n------JULI--------");
-console.table(teuingDate(31, "Juli", 6));
+console.log(teuingDate(31, "Juli", 6));
