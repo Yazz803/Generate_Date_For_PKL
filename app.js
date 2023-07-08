@@ -34,6 +34,7 @@ function teuingDate(jmlHari, bulan, tglHari, hariLibur = []) {
     }
     if (hari(tgl) === "Minggu") {
       tgl = 1;
+      tgl++;
       i++;
       continue;
     }
@@ -64,7 +65,7 @@ console.log("\n------JANUARI--------");
 console.log(teuingDate(31, "Januari", 7));
 
 console.log("\n------FEBRUARI--------");
-console.log(teuingDate(27, "Februari", 3));
+console.log(teuingDate(28, "Februari", 3));
 
 console.log("\n------MARET--------");
 console.log(teuingDate(31, "Maret", 3));
